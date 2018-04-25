@@ -1,0 +1,52 @@
+{
+  "name": "laiser",
+  "version": "0.0.3",
+  "description": "A framework that manipulates the Dom element of an HTML page like ASP.NET with Type Script.",
+  "main": "dist/index.js",
+  "types": "dist/dist/index.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server",
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aiprovide/laiser.git"
+  },
+  "keywords": [
+    "asp.net",
+    "html",
+    "framework",
+    "sharepoint",
+    "laiser"
+  ],
+  "author": "Aiprovide Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aiprovide/laiser/issues"
+  },
+  "homepage": "https://github.com/Aiprovide/laiser#readme",
+  "devDependencies": {
+    "@types/datatables.net": "^1.10.9",
+    "@types/jquery": "^3.3.1",
+    "@types/jqueryui": "^1.12.2",
+    "@types/microsoft-ajax": "0.0.33",
+    "@types/sharepoint": "^2016.1.0",
+    "sp-com": "0.0.2",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "datatables.net": "^1.10.16",
+    "jquery": "^3.3.1",
+    "jquery-treetable": "^3.2.0-1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "jquery.cookie": "^1.4.1",
+    "promise": "^8.0.1"
+  }
+}

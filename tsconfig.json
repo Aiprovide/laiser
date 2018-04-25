@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        // TSはECMAScript 5に変換
+        "target": "es5",
+        // TSのモジュールはES Modulesとして出力
+        "module": "es2015",
+        "declaration": true,
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "moduleResolution": "node",
+        // デコレーターを有効に設定
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
